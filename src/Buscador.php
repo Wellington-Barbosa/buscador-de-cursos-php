@@ -34,7 +34,7 @@ class Buscador
         $cursos = [];
 
         foreach ($elementosCursos as $elemento) {
-            $cursos[] = $elemento->textContent . PHP_EOL;
+            $cursos[] = $elemento->textContent;
         }
         return $cursos;
     }
